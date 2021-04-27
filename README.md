@@ -1,20 +1,11 @@
 # testcafe-browser-provider-devicefarm
-[![Build Status](https://travis-ci.org/pablo.enriquez@vwfs.io/testcafe-browser-provider-devicefarm.svg)](https://travis-ci.org/pablo.enriquez@vwfs.io/testcafe-browser-provider-devicefarm)
 
 This is the **devicefarm** browser provider plugin for [TestCafe](http://devexpress.github.io/testcafe).
 
 ## Install
 
 ```
-npm install testcafe-browser-provider-devicefarm
-```
-
-## Usage
-
-
-You can determine the available browser aliases by running
-```
-testcafe -b devicefarm
+yarn add file:/custom-file
 ```
 
 When you run tests from the command line, use the alias when specifying browsers:
