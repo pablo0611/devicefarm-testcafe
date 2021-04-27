@@ -5,7 +5,19 @@ This is the **devicefarm** browser provider plugin for [TestCafe](http://devexpr
 ## Install
 
 ```
-yarn add file:/custom-file
+npm install
+```
+
+## Build
+
+```
+npm run build
+```
+
+## Use
+
+```
+run yarn add file:/custom-file in the project to use it.
 ```
 
 When you run tests from the command line, use the alias when specifying browsers:
@@ -26,4 +38,5 @@ testCafe
 ```
 
 ## Author
+Pablo Enríquez
  
