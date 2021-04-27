@@ -7,7 +7,7 @@ export default {
     seleniumServer: null,
     openedBrowsers: {},
     async getHubUrl () {
-        var PROJECT_ARN = 'arn:aws:devicefarm:us-west-2:420979267422:testgrid-project:8155b778-625a-4772-9968-de7aec84f0cc';
+        var PROJECT_ARN = '';
         var devicefarm = new AWS.DeviceFarm({ region: 'us-west-2' });
 
         const data = await devicefarm.createTestGridUrl({

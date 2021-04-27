@@ -7,6 +7,7 @@ This is the **devicefarm** browser provider plugin for [TestCafe](http://devexpr
 ```
 npm install
 ```
+
 ## Build
 
 ```
